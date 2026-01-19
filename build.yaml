@@ -8,5 +8,9 @@ include:
   - board: nice_nano_v2
     shield: settings_reset
   - board: nice_nano_v2
-    shield: haili58
+    shield: haili58_left
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
+  - board: nice_nano_v2
+    shield: haili58_right
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
+
