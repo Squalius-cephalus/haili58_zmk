@@ -28,16 +28,16 @@
 / {
     left_encoder: encoder_left {
         compatible = "alps,ec11";
-        a-gpios = <5 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        b-gpios = <6 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        a-gpios = <&pro_micro 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        b-gpios = <&pro_micro 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         steps = <80>;
         status = "disabled";
     };
 
         right_encoder: encoder_right {
         compatible = "alps,ec11";
-        a-gpios = <5 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        b-gpios = <6 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        a-gpios = <&pro_micro 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        b-gpios = <&pro_micro 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         steps = <80>;
         status = "disabled";
     };
