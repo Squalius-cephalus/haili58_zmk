@@ -15,7 +15,7 @@
 &kp LEFT_ALT      &kp LEFT_GUI  &kp SPACE     &kp RIGHT_ALT  &mo 1         &studio_unlock      &studio_unlock  &mo 2   &mo 1      &mo 1    &kp MINUS  &kp EQUAL
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp UP DOWN>;
         };
 
         layer_1 {
